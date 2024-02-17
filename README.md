@@ -1,2 +1,2 @@
 # PublicRepo01
-For Learning 
+This repo is used for learning and development purpose only 
