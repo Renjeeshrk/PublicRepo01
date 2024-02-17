@@ -4,15 +4,15 @@ In this session will see how to configure Terraform to store the state files rem
 In simple words Terraform state is basically the current status of your infrastructure.It keeps track of resources declared in your configuration and maps them to resources in the actual environment.By the default, the state file is named terraform.state and is stored locally
 ## When you store the State Locally
 * It doesn't work well in a team or collaborative Environment
-* It can include sesitive data , which is not recommended to be in your local machine
+* It can include sensitive data , which is not recommended to be in your local machine
 * Increase chances for accidental deletion
 ## What you need to setup the remote storage 
 * A Resource group in Azure
 * A Storge account and container 
 In this configuration we are going to configure a standard storage account with Locally redundant storage (LRS) replication
 
-### Lets create the resouces required to store the State file 
-The first step is to create the providers code ,we are adding this in a separete configuration file named -providers.tf
+### Lets create the resources required to store the State file 
+The first step is to create the providers code ,we are adding this in a separate  configuration file named -providers.tf
 ![image](https://github.com/Renjeeshrk/PublicRepo01/assets/51906504/bd28f2e7-0bc5-4b83-957a-6d3d7c5c9ebd)
 
 
@@ -38,11 +38,13 @@ You need to run the initialization command to make the changes
 Login to Azure portal and navigate to the storage account and makes sure state file is now migrated to the Azure storage
 ![image](https://github.com/Renjeeshrk/PublicRepo01/assets/51906504/85462170-bc16-4981-abc1-574d90268205)
 
-We can now remvoe the state file from local machine and run **terraform show** command to view the state file 
+We can now remove the state file from local machine and run **terraform show** command to view the state file 
 
 Use **terraform Destroy** to remove the resources created 
 
 ## When you save the state file in Azure storage 
 * The data stored in azure blob is encrypted before being persisted
-* Terraform will retrive the state from the Azure storage backend and store it in the local memory
+* Terraform will retrieve the state from the Azure storage backend and store it in the local memory
 * A state is never written to your local disk 
+
+Code files are available Here - https://github.com/Renjeeshrk/PublicRepo01/tree/21fd912f37af603249dd484ba8eee08f2309769c/Terraform/code_RemoteStorage
