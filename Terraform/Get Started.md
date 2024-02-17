@@ -1,6 +1,6 @@
 # Getting Started with Terraform for Azure 
 ## The Basics 
-Terraform is an infrastructure as code tool which can be used to manage the resources in both cloud and on-prem resoucess .You can then use a workflows to provision and manage all of your infrastructure throughout its lifecycle.
+Terraform is an infrastructure as code tool which can be used to manage the resources in both cloud and on-prem resources .You can then use a workflows to provision and manage all of your infrastructure throughout its lifecycle.
 Terraform creates and manages resources on cloud platforms and other services through their application programming interfaces (APIs)
 ![image](https://github.com/Renjeeshrk/PublicRepo01/assets/51906504/a618d3a6-7df8-4c5d-805e-336ae80c9b4d)
 
@@ -11,7 +11,7 @@ Terraform creates and manages resources on cloud platforms and other services th
 * Plan
   *  Review the changes that is going to implement 
 * Apply
-  *  Apply the code to build/change the infrastrcuture
+  *  Apply the code to build/change the infrastructure
 ## Get your tool kit ready 
 * Terraform
 * Git
@@ -19,7 +19,7 @@ Terraform creates and manages resources on cloud platforms and other services th
 * Visual Studio Code
   
 ### Setting up your infrastructure-as-code workstation 
-Its important to have your infrastracture-as-code platform in a consistent environmnet
+Its important to have your infrastructure-as-code platform in a consistent environment
 Here we are using Chocoloately to automate the installation 
 
 1. Navigate to https://chocolatey.org/install
@@ -36,8 +36,8 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
     
 ![image](https://github.com/Renjeeshrk/PublicRepo01/assets/51906504/248abbbf-716c-4864-8571-9147fef83384)
 
-11. Follow the package creation page, Select Indivudual for the integration method 
-12. Copy the the script
+11. Follow the package creation page, Select Individual  for the integration method 
+12. Copy the  script
     
  ![image](https://github.com/Renjeeshrk/PublicRepo01/assets/51906504/b8d17a60-00ec-4a96-b5ca-cdeb3e626223)
 14. Run the script on your machine to install all the packages 
