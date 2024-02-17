@@ -40,6 +40,8 @@ Login to Azure portal and navigate to the storage account and makes sure state f
 
 We can now remvoe the state file from local machine and run **terraform show** command to view the state file 
 
+Use **terraform Destroy** to remove the resources created 
+
 ## When you save the state file in Azure storage 
 * The data stored in azure blob is encrypted before being persisted
 * Terraform will retrive the state from the Azure storage backend and store it in the local memory
