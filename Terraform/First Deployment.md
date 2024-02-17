@@ -9,8 +9,7 @@ In this session, we will will create a Terraform configuration to deploy an Azur
 
 Terraform configuration designed with the HashiCorp Configuration Language (HCL), a declarative language crafted exclusively for Terraform. HCL boasts a human-readable syntax, facilitating user comprehension of infrastructure resource configurations. Moreover, HCL offers robust resource orchestration features, including input variables, outputs, data sources, and modules. These elements enable the creation of reusable and composable infrastructure definitions.
 
-![image](https://github.com/Renjeeshrk/RK_Public/assets/51906504/d988467f-aee1-4f63-9954-ae1485cb1428)
-
+![image](https://github.com/Renjeeshrk/PublicRepo01/assets/51906504/4bf20c0a-8ec6-44e9-aabe-ebb786761ab2)
 
 ## ProvidersEach provider adds a set of resource types and/or data sources that Terraform can manage.
 
@@ -19,9 +18,8 @@ The Terraform Registry is the main directory of publicly available Terraform pro
 https://registry.terraform.io/browse/providers
 
 ### Time to code the First program to Create a Resource Group and a vNet in Azure 
-The first two blocks of the code defined the provider source and the version being used for , the the remaining configuration can be added. The full code is avaialble here - https://github.com/Renjeeshrk/RK_Public/blob/31af00f686913e0ef929b9ee1f703c9bf7a021cb/Terraform/buildinfra.tf 
-
-![image](https://github.com/Renjeeshrk/RK_Public/assets/51906504/58f585ab-6714-42f0-91b7-3285da1ad7bd)
+The first two blocks of the code defined the provider source and the version being used for , the the remaining configuration can be added. The full code is avaialble here - 
+https://github.com/Renjeeshrk/PublicRepo01/blob/f8d128fd9e25bd0c7b587a27e2db5816d33cacc8/Terraform/buildinfra.tf
 
 ### How to run the Code 
 1. **Initialize the Configuration**
