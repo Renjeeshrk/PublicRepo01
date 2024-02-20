@@ -8,5 +8,5 @@
 2. [Build your first Azure Resource using Terraform](https://github.com/Renjeeshrk/PublicRepo01/blob/dc99e0b40b261add2d8db70d9a869e079b07c7aa/Terraform/First%20Deployment.md)
 3. [Store Terraform State on Azure storage](https://github.com/Renjeeshrk/PublicRepo01/blob/dc99e0b40b261add2d8db70d9a869e079b07c7aa/Terraform/Azure%20Storage%20for%20Terraform%20State.md)
 4. [Design and implement Hub and Spoke Network](https://github.com/Renjeeshrk/PublicRepo01/tree/2610b46fa89854a6f26eda32d97c8a679808ad46/Terraform/Source%20Files)
-5. [Build VM Clusters and scale set with Terraform]
-6. [Create custom modules in Terraform]c
+5. [Build VM Clusters and scale set with Terraform]()
+6. [Create custom modules in Terraform]()
