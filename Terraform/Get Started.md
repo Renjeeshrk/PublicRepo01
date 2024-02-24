@@ -23,8 +23,8 @@ Its important to have your infrastructure-as-code platform in a consistent envir
 Here we are using Chocoloately to automate the installation 
 
 1. Navigate to https://chocolatey.org/install
-2. Copy the installation script and run it on your local machine
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+2. Copy the installation script and run it on your local machine   
+_Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))_
 3. This will install the chocolatey package on your machine
 4. Now lets create the required packages from chocolatey
 5. Navigate to https://community.chocolatey.org/packages
