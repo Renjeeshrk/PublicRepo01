@@ -11,12 +11,20 @@ terraform {
 provider "azurerm" {
   features {}
 }
+# Local variables
+locals {
+  hub_locationame = "eastus"
+  spoke1_location = "eastus"
+  spoke2_location = "westus"
+
+  
+}
 
 # Crate Resource Group
 
 resource "azurerm_resource_group" "az_project_secure" {
     name = "rg_az_project"
-    location = "eastus"
+    location = local.hub_locationame
   
 }
 // Hub network Deployment  
@@ -70,7 +78,7 @@ resource "azurerm_subnet" "az_pr_spoke1_backEnd_subnet" {
 
 resource "azurerm_virtual_network" "az_pr_spoke2_vnet" {
   name                = "az_pr_spoke2_vnet_01"
-  location            = azurerm_resource_group.az_project_secure.location
+  location            = local.spoke2_location
   resource_group_name = azurerm_resource_group.az_project_secure.name
   address_space       = ["10.10.32.0/20"]
 }
